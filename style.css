@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(135deg, #0066ff, #00d4ff);
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+  display: grid;
+  gap: 20px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.search-section input {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-section button {
+  padding: 10px 15px;
+  border: none;
+  background: #0066ff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-section button:hover {
+  background: #004bcc;
+}
+
+.drug-info h2 {
+  margin-bottom: 10px;
+}
+
+.drug-info ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.chatbot-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbox {
+  height: 300px;
+  overflow-y: auto;
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fafafa;
+  margin-top: 10px;
+}
+
+.bot-message, .user-message {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.bot-message {
+  background: #e3f2ff;
+  align-self: flex-start;
+}
+
+.user-message {
+  background: #0066ff;
+  color: white;
+  align-self: flex-end;
+}
+
+.chat-input {
+  display: flex;
+  margin-top: 12px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+.chat-input button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  background: #00b894;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: #009170;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: #222;
+  color: white;
+  font-size: 0.9rem;
+}
