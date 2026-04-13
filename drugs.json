@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Paracetamol",
+    "uses": "Pain relief, fever reduction",
+    "adult_dose": "500mg to 1000mg every 4-6 hours (max 4000mg/day)",
+    "child_dose": "10-15mg/kg every 4-6 hours (max 60mg/kg/day)",
+    "dosage_form": "Tablet, Syrup, Suspension, Injection",
+    "warnings": "Avoid overdose. Use carefully in liver disease.",
+    "side_effects": [
+      "Nausea",
+      "Vomiting",
+      "Skin rash",
+      "Liver toxicity (high dose)",
+      "Allergic reactions"
+    ],
+    "brand_names": ["Crocin", "Dolo 650", "Calpol", "Tylenol"]
+  },
+  {
+    "name": "Amoxicillin",
+    "uses": "Bacterial infections (respiratory, ear, UTI)",
+    "adult_dose": "250-500mg every 8 hours or 500-875mg every 12 hours",
+    "child_dose": "20-40mg/kg/day divided doses",
+    "dosage_form": "Capsule, Tablet, Suspension",
+    "warnings": "Avoid if allergic to penicillin.",
+    "side_effects": [
+      "Diarrhea",
+      "Nausea",
+      "Vomiting",
+      "Skin rash",
+      "Allergic reaction"
+    ],
+    "brand_names": ["Amoxil", "Mox", "Novamox"]
+  },
+  {
+    "name": "Ibuprofen",
+    "uses": "Pain relief, inflammation, fever",
+    "adult_dose": "200-400mg every 4-6 hours (max 1200mg/day OTC)",
+    "child_dose": "5-10mg/kg every 6-8 hours",
+    "dosage_form": "Tablet, Capsule, Syrup",
+    "warnings": "Avoid in gastric ulcer, kidney disease.",
+    "side_effects": [
+      "Stomach pain",
+      "Heartburn",
+      "Nausea",
+      "Dizziness",
+      "Kidney problems"
+    ],
+    "brand_names": ["Brufen", "Advil", "Motrin"]
+  }
+]
